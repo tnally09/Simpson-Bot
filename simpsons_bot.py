@@ -79,8 +79,6 @@ async def on_message(message):
         await message.channel.send("https://frinkiac.com/meme/S08E23/677743.jpg?b64lines=QU5EIE1ZIFNPTiBCQVJULgogSEUgT1dOUyBBIEZBQ1RPUlkKIERPV05UT1dOLg==")
     if message.content.__contains__('factorio'):
         await message.channel.send("https://frinkiac.com/meme/S08E23/677743.jpg?b64lines=QU5EIE1ZIFNPTiBCQVJULgogSEUgT1dOUyBBIEZBQ1RPUlkKIERPV05UT1dOLg==")
-    if message.content.__contains__('brotorio'):
-        await message.channel.send("https://frinkiac.com/meme/S08E23/677743.jpg?b64lines=QU5EIE1ZIFNPTiBCQVJULgogSEUgT1dOUyBBIEZBQ1RPUlkKIERPV05UT1dOLg==")
     if message.content.__contains__('safe'):
         await message.channel.send("https://frinkiac.com/meme/S08E23/1276958.jpg?b64lines=IFdFTEwsIEkgRE9OJ1QgTkVFRCBTQUZFVFkKIEdMT1ZFUyBCRUNBVVNFIEknTSBIT01FUgogU0lNUC4uLg==")
     if message.content.__contains__('joe'):
@@ -147,8 +145,7 @@ async def on_message(message):
         await message.channel.send("https://frinkiac.com/meme/S02E18/1155653.jpg?b64lines=SSBodW5nIGl0IG9uIG1lIHdhbGwuCg==")
     if message.content.__contains__('shit'):
         await message.channel.send("https://frinkiac.com/meme/S03E16/1097111.jpg?b64lines=RmlkZGxlLWRlZS1kZWUu")
-    if message.content.__contains__('weed'):
-        await message.channel.send("https://frinkiac.com/meme/S13E16/415790.jpg?b64lines=IEl0IHNtZWxscyBsaWtlIHRoZSBhcnQKIHRlYWNoZXIncyBvZmZpY2Uu")
+
 
 # Replace hashes with a valid Discord bot token
 client.run('#####################################')
