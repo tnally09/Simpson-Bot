@@ -150,8 +150,5 @@ async def on_message(message):
     if message.content.__contains__('weed'):
         await message.channel.send("https://frinkiac.com/meme/S13E16/415790.jpg?b64lines=IEl0IHNtZWxscyBsaWtlIHRoZSBhcnQKIHRlYWNoZXIncyBvZmZpY2Uu")
 
-
-        
-
-
-client.run('ODMwNTM4OTc4NzMzOTgxNzM3.YHIJsw.QEYXMEOkjvoVHoPXeDak5uJtzkM')
+# Replace hashes with a valid Discord bot token
+client.run('#####################################')
